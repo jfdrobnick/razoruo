@@ -1,0 +1,10 @@
+!Loop
+Assistant.Macros.HotKeyAction|0|Restock Agent-3
+Assistant.Macros.AbsoluteTargetAction|0|0|1943967|5267|3989|37|401
+Assistant.Macros.PauseAction|00:00:02
+Assistant.Macros.DoubleClickTypeAction|4031|True
+Assistant.Macros.PauseAction|00:00:00.6000000
+Assistant.Macros.PauseAction|00:00:01
+Assistant.Macros.GumpResponseAction|16|0|0
+Assistant.Macros.PauseAction|00:00:01
+Assistant.Macros.PauseAction|00:00:04

@@ -1,0 +1,15 @@
+!Loop
+Assistant.Macros.DoubleClickAction|1114565206|3519
+Assistant.Macros.WaitForTargetAction|30
+Assistant.Macros.TargetRelLocAction|-3|0
+Assistant.Macros.PauseAction|00:00:01
+Assistant.Macros.IfAction|4|0|the fish don't seem to be biting here.
+Assistant.Macros.DoubleClickAction|1114565206|3519
+Assistant.Macros.WaitForTargetAction|30
+Assistant.Macros.TargetRelLocAction|1|-2
+Assistant.Macros.PauseAction|00:00:01
+Assistant.Macros.DoubleClickTypeAction|4031|True
+Assistant.Macros.WaitForGumpAction|949095101|False|300
+Assistant.Macros.GumpResponseAction|51|0|0
+Assistant.Macros.WaitForGumpAction|949095101|False|300
+Assistant.Macros.PauseAction|00:00:07.4000000

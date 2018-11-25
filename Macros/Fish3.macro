@@ -1,0 +1,13 @@
+!Loop
+Assistant.Macros.DoubleClickAction|1114565206|3519
+Assistant.Macros.WaitForTargetAction|30
+Assistant.Macros.AbsoluteTargetAction|1|0|0|1449|1769|-5|6044
+Assistant.Macros.PauseAction|00:00:09.2500000
+Assistant.Macros.DoubleClickAction|1114565206|3519
+Assistant.Macros.WaitForTargetAction|30
+Assistant.Macros.AbsoluteTargetAction|1|0|0|1450|1769|-5|6041
+Assistant.Macros.PauseAction|00:00:09.2500000
+Assistant.Macros.DoubleClickAction|1114565206|3519
+Assistant.Macros.WaitForTargetAction|30
+Assistant.Macros.AbsoluteTargetAction|1|0|0|1451|1769|-5|6044
+Assistant.Macros.PauseAction|00:00:09.2500000

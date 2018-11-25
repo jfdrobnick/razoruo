@@ -1,0 +1,35 @@
+// --- FISH SE ---
+Double Click (fishing pole(ODBF))
+Wait for Target
+Target RelLoc (3,2)
+Pause 8sec
+If (SysMessage "The fish don't seem to be biting here.")
+
+// --- FISH NE ---
+Double Click (fishing pole(ODBF)))
+Wait for Target
+Target RelLoc (2, -5)
+Pause 8sec
+End If
+
+// FISH NW
+If (SysMessage "The fish don't seem to be biting here.")
+Double Click (fishing pole(ODBF))
+Target RelLoc(-3,-4)
+Pause 8sec
+End If
+
+//FISH SW
+If (SysMessage "The fish don't seem to be biting here.")
+Double Click (fishing pole(ODBF))
+Target RelLoc(-3,2)
+Pause 8sec
+End If
+
+//Move Boat
+Say: slow forward
+Pause: 12.90sec
+
+
+
+

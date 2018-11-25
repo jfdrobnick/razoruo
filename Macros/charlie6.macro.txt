@@ -1,0 +1,36 @@
+!Loop
+// --- Check first direction ---
+Assistant.Macros.DoubleClickAction|1114565206|3519
+Assistant.Macros.PauseAction|00:00:00.5
+Assistant.Macros.TargetRelLocAction|-3|0
+Assistant.Macros.PauseAction|00:00:00.5
+Assistant.Macros.IfAction|4|0|the fish don't seem to be biting here.
+Assistant.Macros.SpeechAction|0|52|3|ENU|2|16|90|Trying to check other direction
+Assistant.Macros.WalkAction|0
+Assistant.Macros.DoubleClickAction|1114565206|3519
+Assistant.Macros.PauseAction|00:00:00.5000000
+Assistant.Macros.TargetRelLocAction|3|-1
+Assistant.Macros.PauseAction|00:00:00.5
+Assistant.Macros.EndIfAction
+Assistant.Macros.IfAction|4|0|you are already fishing.
+Assistant.Macros.PauseAction|00:00:06.00
+Assistant.Macros.EndIfAction
+Assistant.Macros.IfAction|4|0|the fish don't seem to be biting here.
+Assistant.Macros.SpeechAction|0|52|3|ENU|2|16|90|There's no fish in the area; let's get going!
+Assistant.Macros.SpeechAction|0|52|3|ENU|2|16|90|forward one
+Assistant.Macros.PauseAction|00:00:01
+Assistant.Macros.SpeechAction|0|52|3|ENU|2|16|90|forward one
+Assistant.Macros.PauseAction|00:00:01
+Assistant.Macros.SpeechAction|0|52|3|ENU|2|16|90|forward one
+Assistant.Macros.PauseAction|00:00:01
+Assistant.Macros.SpeechAction|0|52|3|ENU|2|16|90|forward one
+Assistant.Macros.PauseAction|00:00:01
+Assistant.Macros.SpeechAction|0|52|3|ENU|2|16|90|forward one
+Assistant.Macros.PauseAction|00:00:01
+Assistant.Macros.SpeechAction|0|52|3|ENU|2|16|90|forward one
+Assistant.Macros.PauseAction|00:00:01
+Assistant.Macros.SpeechAction|0|52|3|ENU|2|16|90|forward one
+Assistant.Macros.PauseAction|00:00:01
+Assistant.Macros.SpeechAction|0|52|3|ENU|2|16|90|forward one
+Assistant.Macros.EndIfAction
+Assistant.Macros.PauseAction|00:00:01

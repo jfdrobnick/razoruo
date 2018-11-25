@@ -1,0 +1,5 @@
+!Loop
+Assistant.Macros.DoubleClickTypeAction|3617|True
+Assistant.Macros.WaitForTargetAction|1
+Assistant.Macros.AbsoluteTargetAction|0|2|1131280|5157|3012|70|178
+Assistant.Macros.PauseAction|00:00:05.1700000

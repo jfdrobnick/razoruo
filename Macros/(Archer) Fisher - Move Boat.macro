@@ -1,0 +1,66 @@
+!Loop
+// Check for Mobs
+Assistant.Macros.HotKeyAction|1540|
+Assistant.Macros.IfAction|4|0|new target set.
+// Mobs Found!
+Assistant.Macros.HotKeyAction|1395|
+// Stops macro to loot
+Assistant.Macros.HotKeyAction|1083|
+Assistant.Macros.EndIfAction
+Assistant.Macros.IfAction|4|0|no one matching that was found on your screen.
+// Fish SE
+Assistant.Macros.DoubleClickTypeAction|3519|True
+Assistant.Macros.WaitForTargetAction|2
+Assistant.Macros.TargetRelLocAction|3|2
+Assistant.Macros.PauseAction|00:00:00.5000000
+Assistant.Macros.EndIfAction
+Assistant.Macros.IfAction|4|0|the fish don't seem to be biting here
+// Fish NE
+Assistant.Macros.DoubleClickTypeAction|3519|True
+Assistant.Macros.WaitForTargetAction|2
+Assistant.Macros.TargetRelLocAction|2|-5
+Assistant.Macros.PauseAction|00:00:00.5000000
+Assistant.Macros.EndIfAction
+Assistant.Macros.IfAction|4|0|the fish don't seem to be biting here
+// Fish NW
+Assistant.Macros.DoubleClickTypeAction|3519|True
+Assistant.Macros.WaitForTargetAction|2
+Assistant.Macros.TargetRelLocAction|-3|-4
+Assistant.Macros.PauseAction|00:00:00.5000000
+Assistant.Macros.EndIfAction
+Assistant.Macros.IfAction|4|0|the fish don't seem to be biting here
+// Fish SW
+Assistant.Macros.DoubleClickTypeAction|3519|True
+Assistant.Macros.WaitForTargetAction|2
+Assistant.Macros.TargetRelLocAction|-3|2
+Assistant.Macros.PauseAction|00:00:00.5000000
+Assistant.Macros.EndIfAction
+Assistant.Macros.IfAction|4|0|the fish don't seem to be biting here
+// Check for Mobs
+Assistant.Macros.HotKeyAction|1540|
+Assistant.Macros.IfAction|4|0|no one matching that was found on your screen.
+// Move boat to next 8x8 Grid
+Assistant.Macros.SpeechAction|0|52|3|ENU|2|16|82|slow forward
+Assistant.Macros.PauseAction|00:00:12.9000000
+Assistant.Macros.SpeechAction|0|52|3|ENU|5|48|54|4|241|97|stop
+Assistant.Macros.EndIfAction
+Assistant.Macros.EndIfAction
+// Check for Mobs
+Assistant.Macros.HotKeyAction|1540|
+Assistant.Macros.IfAction|4|0|no one matching that was found on your screen.
+// Eat Special Fish
+Assistant.Macros.DoubleClickTypeAction|3542|True
+Assistant.Macros.PauseAction|00:00:00.5000000
+// CUT UP FISH
+Assistant.Macros.ForAction|4
+Assistant.Macros.PauseAction|00:00:00.5000000
+Assistant.Macros.DoubleClickTypeAction|3922|True
+Assistant.Macros.WaitForTargetAction|2
+Assistant.Macros.TargetTypeAction|False|2511
+Assistant.Macros.TargetTypeAction|False|2510
+Assistant.Macros.TargetTypeAction|False|2509
+Assistant.Macros.TargetTypeAction|False|2508
+Assistant.Macros.HotKeyAction|1332|
+Assistant.Macros.EndForAction
+Assistant.Macros.PauseAction|00:00:01.5000000
+Assistant.Macros.EndIfAction

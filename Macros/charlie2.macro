@@ -1,0 +1,33 @@
+!Loop
+// CHECK FIRST DIRECTION
+Assistant.Macros.DoubleClickAction|1114565206|3519
+Assistant.Macros.PauseAction|00:00:00.5000000
+Assistant.Macros.WaitForTargetAction|30
+Assistant.Macros.TargetRelLocAction|-3|0
+// CHECK SECOND DIRECTION
+Assistant.Macros.IfAction|4|0|the fish don't seem to be biting here.
+Assistant.Macros.WalkAction|0
+Assistant.Macros.DoubleClickAction|1114565206|3519
+// MOVE IF NEEDED
+Assistant.Macros.IfAction|4|0|the fish don't seem to be biting here.
+Assistant.Macros.SpeechAction|0|52|3|ENU|2|16|90|forward one
+Assistant.Macros.PauseAction|00:00:01
+Assistant.Macros.SpeechAction|0|52|3|ENU|2|16|90|forward one
+Assistant.Macros.PauseAction|00:00:01
+Assistant.Macros.SpeechAction|0|52|3|ENU|2|16|90|forward one
+Assistant.Macros.PauseAction|00:00:01
+Assistant.Macros.SpeechAction|0|52|3|ENU|2|16|90|forward one
+Assistant.Macros.PauseAction|00:00:01
+Assistant.Macros.SpeechAction|0|52|3|ENU|2|16|90|forward one
+Assistant.Macros.PauseAction|00:00:01
+Assistant.Macros.SpeechAction|0|52|3|ENU|2|16|90|forward one
+Assistant.Macros.PauseAction|00:00:01
+Assistant.Macros.SpeechAction|0|52|3|ENU|2|16|90|forward one
+Assistant.Macros.PauseAction|00:00:01
+Assistant.Macros.SpeechAction|0|52|3|ENU|2|16|90|forward one
+Assistant.Macros.EndIfAction
+Assistant.Macros.PauseAction|00:00:00.5000000
+Assistant.Macros.TargetRelLocAction|3|0
+Assistant.Macros.EndIfAction
+// PAUSE BEFORE RESTARTING
+Assistant.Macros.PauseAction|00:00:01

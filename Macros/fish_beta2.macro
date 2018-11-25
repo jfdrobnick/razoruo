@@ -1,0 +1,56 @@
+!Loop
+// check first direction for fish
+Assistant.Macros.DoubleClickAction|1114565206|3519
+Assistant.Macros.PauseAction|00:00:00.5000000
+Assistant.Macros.TargetRelLocAction|-3|0
+Assistant.Macros.PauseAction|00:00:00.5000000
+Assistant.Macros.IfAction|4|0|the fish don't seem to be biting here.
+// check other direction for fish
+Assistant.Macros.SpeechAction|0|52|3|ENU|2|16|90|Trying to check other direction
+Assistant.Macros.WalkAction|0
+Assistant.Macros.DoubleClickAction|1114565206|3519
+Assistant.Macros.PauseAction|00:00:00.5000000
+Assistant.Macros.TargetRelLocAction|3|-1
+Assistant.Macros.PauseAction|00:00:00.5000000
+Assistant.Macros.EndIfAction
+// stop spamming if fishing
+Assistant.Macros.IfAction|4|0|you are already fishing.
+Assistant.Macros.PauseAction|00:00:03.5000000
+Assistant.Macros.EndIfAction
+// cut fish type i
+Assistant.Macros.DoubleClickAction|1114565186|3922
+Assistant.Macros.PauseAction|00:00:00.1000000
+Assistant.Macros.TargetTypeAction|False|2508
+// cut fish type ii
+Assistant.Macros.DoubleClickAction|1114565186|3922
+Assistant.Macros.PauseAction|00:00:00.1000000
+Assistant.Macros.TargetTypeAction|False|2509
+// cut fish type iii
+Assistant.Macros.DoubleClickAction|1114565186|3922
+Assistant.Macros.PauseAction|00:00:00.1000000
+Assistant.Macros.TargetTypeAction|False|2510
+// cut fish type iv
+Assistant.Macros.DoubleClickAction|1114565186|3922
+Assistant.Macros.PauseAction|00:00:00.1000000
+Assistant.Macros.TargetTypeAction|False|2511
+Assistant.Macros.PauseAction|00:00:01
+// move the boat
+Assistant.Macros.IfAction|4|0|the fish don't seem to be biting here.
+Assistant.Macros.SpeechAction|0|52|3|ENU|2|16|90|There's no fish in the area; let's get going!
+Assistant.Macros.SpeechAction|0|52|3|ENU|2|16|90|forward one
+Assistant.Macros.PauseAction|00:00:01
+Assistant.Macros.SpeechAction|0|52|3|ENU|2|16|90|forward one
+Assistant.Macros.PauseAction|00:00:01
+Assistant.Macros.SpeechAction|0|52|3|ENU|2|16|90|forward one
+Assistant.Macros.PauseAction|00:00:01
+Assistant.Macros.SpeechAction|0|52|3|ENU|2|16|90|forward one
+Assistant.Macros.PauseAction|00:00:01
+Assistant.Macros.SpeechAction|0|52|3|ENU|2|16|90|forward one
+Assistant.Macros.PauseAction|00:00:01
+Assistant.Macros.SpeechAction|0|52|3|ENU|2|16|90|forward one
+Assistant.Macros.PauseAction|00:00:01
+Assistant.Macros.SpeechAction|0|52|3|ENU|2|16|90|forward one
+Assistant.Macros.PauseAction|00:00:01
+Assistant.Macros.SpeechAction|0|52|3|ENU|2|16|90|forward one
+Assistant.Macros.EndIfAction
+Assistant.Macros.PauseAction|00:00:01

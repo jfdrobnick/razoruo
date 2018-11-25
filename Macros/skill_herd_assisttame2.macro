@@ -1,0 +1,13 @@
+!Loop
+Assistant.Macros.DoubleClickAction|1153442716|3713
+Assistant.Macros.WaitForTargetAction|1
+Assistant.Macros.TargetTypeAction|True|232
+Assistant.Macros.WaitForTargetAction|1
+Assistant.Macros.HotKeyAction|1059|
+Assistant.Macros.PauseAction|00:00:01
+Assistant.Macros.DoubleClickAction|1153442716|3713
+Assistant.Macros.WaitForTargetAction|1
+Assistant.Macros.TargetTypeAction|True|234
+Assistant.Macros.WaitForTargetAction|1
+Assistant.Macros.HotKeyAction|1059|
+Assistant.Macros.PauseAction|00:00:01
