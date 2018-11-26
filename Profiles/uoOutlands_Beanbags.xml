@@ -21,8 +21,8 @@
 	<property name="CounterWarn" type="System.Boolean">True</property>
 	<property name="HighlightReagents" type="System.Boolean">True</property>
 	<property name="ObjectDelay" type="System.Int32">600</property>
-	<property name="WindowX" type="System.Int32">20</property>
-	<property name="WindowY" type="System.Int32">781</property>
+	<property name="WindowX" type="System.Int32">305</property>
+	<property name="WindowY" type="System.Int32">340</property>
 	<property name="AutoOpenDoors" type="System.Boolean">True</property>
 	<property name="ForceSpellHue" type="System.Boolean">False</property>
 	<property name="CapFullScreen" type="System.Boolean">False</property>
@@ -61,8 +61,8 @@
 	<property name="AlwaysOnTop" type="System.Boolean">False</property>
 	<property name="TitlebarImages" type="System.Boolean">True</property>
 	<property name="ForcePort" type="System.Int32">0</property>
-	<property name="ForceSizeX" type="System.Int32">1024</property>
-	<property name="ForceSizeY" type="System.Int32">768</property>
+	<property name="ForceSizeX" type="System.Int32">1300</property>
+	<property name="ForceSizeY" type="System.Int32">900</property>
 	<property name="CorpseRange" type="System.Int32">2</property>
 	<property name="SellAgentMax" type="System.Int32">99</property>
 	<property name="ImageFormat" type="System.String">jpg</property>
