@@ -21,8 +21,13 @@
 	<property name="CounterWarn" type="System.Boolean">True</property>
 	<property name="HighlightReagents" type="System.Boolean">True</property>
 	<property name="ObjectDelay" type="System.Int32">600</property>
+<<<<<<< HEAD
 	<property name="WindowX" type="System.Int32">664</property>
 	<property name="WindowY" type="System.Int32">765</property>
+=======
+	<property name="WindowX" type="System.Int32">305</property>
+	<property name="WindowY" type="System.Int32">340</property>
+>>>>>>> 1e5ca5eaee51552d106eaa06b96d701e519e8f9b
 	<property name="AutoOpenDoors" type="System.Boolean">True</property>
 	<property name="ForceSpellHue" type="System.Boolean">False</property>
 	<property name="CapFullScreen" type="System.Boolean">False</property>
