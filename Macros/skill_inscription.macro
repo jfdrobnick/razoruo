@@ -1,0 +1,9 @@
+!Loop
+Assistant.Macros.GumpResponseAction|7|0|0
+Assistant.Macros.PauseAction|00:00:02.5000000
+Assistant.Macros.IfAction|5|0|36
+Assistant.Macros.HotKeyAction|0|Restock Agent-1
+Assistant.Macros.AbsoluteTargetAction|0|0|208751|3055|552|40|401
+Assistant.Macros.EndIfAction
+Assistant.Macros.LiftTypeAction|8020|1
+Assistant.Macros.DropAction|0x40685C50|(75, 122, 0)|0

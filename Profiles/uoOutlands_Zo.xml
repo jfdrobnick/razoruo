@@ -21,8 +21,8 @@
 	<property name="CounterWarn" type="System.Boolean">True</property>
 	<property name="HighlightReagents" type="System.Boolean">True</property>
 	<property name="ObjectDelay" type="System.Int32">600</property>
-	<property name="WindowX" type="System.Int32">1072</property>
-	<property name="WindowY" type="System.Int32">525</property>
+	<property name="WindowX" type="System.Int32">606</property>
+	<property name="WindowY" type="System.Int32">523</property>
 	<property name="AutoOpenDoors" type="System.Boolean">True</property>
 	<property name="ForceSpellHue" type="System.Boolean">False</property>
 	<property name="CapFullScreen" type="System.Boolean">False</property>
@@ -119,7 +119,9 @@
 		<Buy-3 enabled="False" />
 		<Buy-4 enabled="False" />
 		<Buy-5 enabled="False" />
-		<Restock-1 hotbag="1167232173" />
+		<Restock-1 hotbag="1167232173">
+			<item id="3827" amount="3" />
+		</Restock-1>
 		<Restock-2 hotbag="0" />
 		<Restock-3 hotbag="0" />
 		<Restock-4 hotbag="0" />
@@ -128,6 +130,7 @@
 	</agents>
 	<dresslists />
 	<hotkeys>
+		<key mod="3" key="82" send="False">Restock Agent-1</key>
 		<key mod="0" key="119" send="False">L:3002061</key>
 		<key mod="1" key="73" send="False">L:3002054</key>
 		<key mod="0" key="112" send="False">L:3002053</key>
@@ -146,7 +149,9 @@
 		<key mod="1" key="81" send="False">L:3002014</key>
 		<key mod="0" key="192" send="False">L:1058</key>
 		<key mod="1" key="192" send="False">L:1059</key>
+		<key mod="0" key="122" send="False">Play: misc_recycling</key>
 		<key mod="0" key="33" send="False">L:1371</key>
+		<key mod="0" key="44" send="False">L:1372</key>
 		<key mod="2" key="66" send="False">L:1025</key>
 		<key mod="1" key="66" send="False">L:1026</key>
 	</hotkeys>

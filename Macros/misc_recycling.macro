@@ -1,0 +1,5 @@
+Assistant.Macros.DoubleClickAction|1074245280|4032
+Assistant.Macros.WaitForGumpAction|949095101|False|300
+Assistant.Macros.GumpResponseAction|3|0|0
+Assistant.Macros.WaitForTargetAction|30
+Assistant.Macros.WaitForGumpAction|949095101|False|300

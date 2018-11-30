@@ -6,7 +6,7 @@
 	<property name="FlipVidH" type="System.Boolean">False</property>
 	<property name="UndressConflicts" type="System.Boolean">True</property>
 	<property name="SortCounters" type="System.Boolean">True</property>
-	<property name="TitleBarText" type="System.String">UO - {char} {crimtime}- {mediumstatbar} {bp} {bm} {gl} {gs} {mr} {ns} {ss} {sa} {aids} {arw} {Gold:} {gold}</property>
+	<property name="TitleBarText" type="System.String">UO - {char} {crimtime}- {mediumstatbar} {bp} {bm} {gl} {gs} {mr} {ns} {ss} {sa} {aids}</property>
 	<property name="BlockHealPoison" type="System.Boolean">False</property>
 	<property name="DisplaySkillChanges" type="System.Boolean">False</property>
 	<property name="LastTargTextFlags" type="System.Boolean">True</property>
@@ -21,8 +21,8 @@
 	<property name="CounterWarn" type="System.Boolean">True</property>
 	<property name="HighlightReagents" type="System.Boolean">True</property>
 	<property name="ObjectDelay" type="System.Int32">600</property>
-	<property name="WindowX" type="System.Int32">664</property>
-	<property name="WindowY" type="System.Int32">765</property>
+	<property name="WindowX" type="System.Int32">400</property>
+	<property name="WindowY" type="System.Int32">400</property>
 	<property name="AutoOpenDoors" type="System.Boolean">True</property>
 	<property name="ForceSpellHue" type="System.Boolean">False</property>
 	<property name="CapFullScreen" type="System.Boolean">False</property>
@@ -33,7 +33,7 @@
 	<property name="CapPath" type="System.String">C:\Users\Jay\Pictures\RazorScreenShots</property>
 	<property name="ShowPartyStats" type="System.Boolean">False</property>
 	<property name="AlwaysStealth" type="System.Boolean">False</property>
-	<property name="SmartCPU" type="System.Boolean">False</property>
+	<property name="SmartCPU" type="System.Boolean">True</property>
 	<property name="ShowNotoHue" type="System.Boolean">True</property>
 	<property name="ShowHealth" type="System.Boolean">False</property>
 	<property name="Negotiate" type="System.Boolean">True</property>
@@ -77,7 +77,7 @@
 	<property name="ActionStatusMsg" type="System.Boolean">True</property>
 	<property name="SpellUnequip" type="System.Boolean">False</property>
 	<property name="ExemptColor" type="System.Int32">1152</property>
-	<property name="AutoOpenCorpses" type="System.Boolean">True</property>
+	<property name="AutoOpenCorpses" type="System.Boolean">False</property>
 	<property name="FlipVidV" type="System.Boolean">False</property>
 	<property name="ForceSizeEnabled" type="System.Boolean">True</property>
 	<property name="PartyStatFmt" type="System.String">[{0}% / {1}%]</property>
@@ -115,9 +115,7 @@
 		<Organizer-9 hotbag="0" />
 		<Organizer-10 hotbag="0" />
 		<AutoSearchExemptions />
-		<Scavenger enabled="True">
-			<item id="3903" />
-		</Scavenger>
+		<Scavenger enabled="True" />
 		<Buy-1 enabled="False" />
 		<Buy-2 enabled="False" />
 		<Buy-3 enabled="False" />
@@ -132,16 +130,7 @@
 	</agents>
 	<dresslists />
 	<hotkeys>
-		<key mod="0" key="192" send="False">L:1058</key>
-		<key mod="1" key="192" send="False">L:1059</key>
-		<key mod="0" key="120" send="False">Play: skill_hiding</key>
-		<key mod="0" key="121" send="False">Play: skill_lumberjack</key>
-		<key mod="3" key="44" send="False">L:1337</key>
-		<key mod="0" key="33" send="False">L:1371</key>
-		<key mod="0" key="44" send="False">L:1372</key>
-		<key mod="2" key="66" send="False">L:1025</key>
-		<key mod="1" key="191" send="False">L:1044063</key>
-		<key mod="2" key="72" send="False">L:1044081</key>
+		<key mod="0" key="120" send="False">L:1044066</key>
 	</hotkeys>
 	<passwords />
 </profile>
